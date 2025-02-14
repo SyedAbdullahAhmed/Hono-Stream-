@@ -13,7 +13,7 @@ Welcome to **Hono-Powered AI API**, a fast and lightweight API built with **Hono
 Ensure you have **Bun** installed before proceeding:
 
 ```sh
-curl -fsSL https://bun.sh/install | bash
+npm i bun
 ```
 
 After installation, restart your terminal and verify:
@@ -92,7 +92,7 @@ bun run dev
 Send a GET request to `/gemini?prompt=What is AI?` and receive **real-time streamed AI-generated text**.
 
 ```sh
-curl -X GET "http://localhost:3000/gemini?prompt=What is AI?`"
+curl -X GET "http://localhost:3000/gemini?prompt=What is AI?`" Or use POSTMAN
 ```
 
 ---
@@ -105,16 +105,6 @@ curl -X GET "http://localhost:3000/gemini?prompt=What is AI?`"
 - **Google Gemini AI** - AI-powered text generation
 - **TypeScript** - Ensures type safety and better maintainability
 
-
----
-
-## 📩 Contact
-
-For any questions or issues, feel free to reach out:
-📧 Email: **[your-email@example.com](mailto\:your-email@example.com)**\
-🐙 GitHub: [YourGitHub](https://github.com/yourusername)
-
----
 
 🚀 **Happy Coding!** 🖥️
 
